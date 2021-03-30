@@ -1,11 +1,9 @@
-function App() {
-const name = 'Teo'
-const x = false
+import Header from './components/Header'
 
+const App = () => {
   return (
     <div className="container">
-      <h1>Hello {name}</h1>
-      <h2>{x?'Yes':'No'}</h2>
+      <Header />
     </div>
   );
 }
